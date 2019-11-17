@@ -1,7 +1,7 @@
 # rpc-netty-etcd
-基于netty和etcd实现的初步rpc框架
+基于Netty和Etcd实现的初步RPC框架
 
-开始学习netty一段时间了，正好实现一个简易的rpc框架也会用到序列化，反射等知识。
+开始学习Netty一段时间了，正好实现一个简易的rpc框架也会用到序列化，反射等知识。
 <br />
 git clone导入idea中，首先开启本地的etcd服务，然后启动rpctest包下的server下的ServerApplication，最后再启动SpringBoot，访问[htttp://localhost:8080](http://localhost:8080)即可看到rpc调用服务结果。
 <br />
